@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-      name: cloudconfig-test-client5
+      name: cloudconfig-test-client666
 
 eureka:
  client:
@@ -27,7 +27,7 @@ server:
 spring:
   profiles: beta
   application:
-      name: cloudconfig-test-client5
+      name: cloudconfig-test-client666
 
 eureka:
  client:
