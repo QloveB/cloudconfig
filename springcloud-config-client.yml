@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-      name: cloudconfig-test-client666
+      name: cloudconfig-test-client123
 
 eureka:
  client:
@@ -18,8 +18,8 @@ eureka:
   register-with-eureka: false
 
 info:
-  app.name: springcloud-config-client-dev2
-  company.name: enjoy2
+  app.name: springcloud-config-client-dev123
+  company.name: enjoy123
 ---
 server:
   port: 8102
@@ -27,7 +27,7 @@ server:
 spring:
   profiles: beta
   application:
-      name: cloudconfig-test-client666
+      name: cloudconfig-test-client321
 
 eureka:
  client:
@@ -36,5 +36,5 @@ eureka:
   register-with-eureka: false
   
 info:
-  app.name: springcloud-config-client-beta2
-  company.name: enjoy
+  app.name: springcloud-config-client-beta321
+  company.name: enjoy321
